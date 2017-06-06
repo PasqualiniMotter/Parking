@@ -113,7 +113,7 @@ class Game:
 #
     def _add_entrance(self, pos=None):
         c = len(self.entrance)
-        pos = (70,140)
+        pos = (90,140)
         dim = (4, 30)
         color = (opt.RED)
         en = entrance.Entrance(self, pos, dim, color)

@@ -60,7 +60,7 @@ class Entrance(pygame.sprite.Sprite):
         self.image.fill(opt.RED)
         self.image = self.image.convert()
         self.rect = self.image.get_rect()
-        self.pos = Vector((70, 128))
+        self.pos = Vector((90, 128))
 
 
     def deactivate(self):
@@ -69,4 +69,4 @@ class Entrance(pygame.sprite.Sprite):
         self.image.fill(opt.RED)
         self.image = self.image.convert()
         self.rect = self.image.get_rect()
-        self.pos = Vector((70,140))
+        self.pos = Vector((90,140))
